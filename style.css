@@ -1,0 +1,149 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    background-color:#02042a;
+    justify-content: space-between;
+    height:80px;
+    position: relative;
+    margin:0 auto;
+    width:1080px;
+    padding: 1rem 2rem;
+;
+
+}
+
+.razorimg{
+    position: relative;
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+img{
+    height:30px;
+    width:125px;
+}
+.elements{
+    display: flex;
+    padding:7px;
+    margin: 0px;
+    gap: 2rem;
+    color:white;
+    /* cursor: pointer; */
+    /* transition: ; */
+    /* animation-duration: 200ms; */
+    position: relative;
+    list-style: none;
+
+}
+
+/* .elements:hover{
+    color:rgb(67, 147, 173);
+    transition:;
+    animation-duration: 200ms;
+    cursor: pointer;
+}*/
+
+.click {
+    color:white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  text-decoration: none;
+
+}
+
+.oo{
+        color:white;
+    text-decoration: none;
+}
+.oo:hover{
+    color: lightblue;
+}
+.inner{
+    /* absolute bottom-0 w-full h-1 bg-blue-500  hidden group-hover:block  
+            transition-all duration-200" */
+
+            position:absolute;
+            bottom: 0; 
+            width: full;
+            height: 0.25rem;
+            background-color:#02042a;
+            background-color: lightblue;
+            visibility: hidden;
+            
+            
+}
+
+.inner:hover{
+    background-color: lightblue;
+    transition: all;
+    animation-duration: 200ms;
+    visibility: none;
+}
+
+#list{
+    background-color: #02042a;
+    
+}
+#list:hover{
+    background-color: lightblue;
+}
+
+.end{
+    display: flex;
+
+}
+
+.flag{
+    width:28px;
+    height:20px;
+}
+
+.login{
+    /* py-3 px-5 font-mullish text-white border-blue-200 
+            border rounded-sm  text-sm font-bold */
+
+            padding:3px 5px;
+            color: white;
+            border:lightblue;
+            border-radius: 10px;
+            font: bold;
+            font-size: small;
+            cursor: pointer;
+           height:40px;
+             width:80px;
+            background-color: #02042a;
+            border-color: lightblue;
+}
+
+.Signup{
+    /* py-3 px-4 font-mullish rounded-sm text-sm font-bold
+            bg-white text-blue-300 border transition-all duration-200
+             hover:text-blue-500   */
+
+              height:40px;
+             width:80px;
+             padding:3px 5px;
+             border-radius: 10px;
+             font-size: small;
+             font: bold;
+             background-color: white;
+             transition: all;
+             animation-duration: 200ms;
+             cursor: pointer;
+
+}
+
+.Signup:hover{
+    color:#02042a;
+    cursor: pointer;
+}
